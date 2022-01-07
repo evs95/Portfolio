@@ -1,0 +1,14 @@
+:root {
+    --dark: #13293d;
+    --medium: #37648f;
+    --light: #89bceb;
+    --superlight: rgb(219, 232, 240);
+}
+
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+    background-color: var(--superlight);
+}
