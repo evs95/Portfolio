@@ -1,14 +1,155 @@
 :root {
     --dark: #13293d;
-    --medium: #37648f;
+    --medium: #5996cf;
     --light: #89bceb;
     --superlight: rgb(219, 232, 240);
 }
 
 *{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark);
 }
 
 body {
     background-color: var(--superlight);
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 3px solid var(--dark);
+}
+
+h2,h3{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 40px;
+}
+
+nav{
+    width: 50%;
+    text-align: right;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: var(--dark);
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 5%;
+}
+
+header ul li a{
+    color: var(--light);
+    border-bottom: 3px solid var(--light);
+}
+
+header .box-name{
+    color: var(--dark);
+    height: 70%;
+    background-color: var(--light);
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-left: 5%;
+}
+
+#subtitle{
+    width: 100%;
+    height: 160px;
+    background-color: var(--medium);
+    position: relative;
+    background-image: url("../images/BG_SubTitle.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+#subtitle div{
+    width: fit-content;
+    color: var(--dark);
+    background-color: var(--light);
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0.1%;
+    padding-left: 3%;
+}
+
+aside{
+    flex: 20%;
+    text-align: end;
+    border-right: 3px solid var(--dark);
+    font-size: 40px;
+    padding-right: 5px;
+}
+
+article{
+    flex: 80%;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+section{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contactme article ul{
+    padding-top: 5%;
+    padding-left: 0%;
+}
+
+.card{
+    display: inline-block;
+    width: 38%;
+    height: 80px;
+    padding: 5%;
+    position: relative;
+    border: 5px solid var(--light);
+}
+
+.img1{
+    background-image: url("../images/Project1.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url("../images/Project2.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url("../images/Project3.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url("../images/Project4.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    width: 25%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    text-align: left;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-left: 3%;
+    background-color: var(--light);
 }
