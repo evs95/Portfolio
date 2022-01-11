@@ -102,7 +102,7 @@ header .box-name{
 }
 
 aside{
-    flex: 20%;
+    flex: 10%;
     text-align: end;
     border-right: 3px solid var(--dark);
     font-size: 40px;
@@ -172,4 +172,44 @@ section{
     padding-top: 2%;
     padding-left: 3%;
     background-color: var(--light);
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    header, main{
+        flex-direction: column;
+    }
+
+    header {
+        height: 10%;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    ul li {
+        display: block;
+        padding: 5%;
+        text-align: start;
+    }
+
+    .card{
+        display: inline-block;
+        width: 85%;
+    }
+
+    .box-name img{
+        width: 100%;
+    }
+
+    aside{
+        flex: 10%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        text-align: start;
+        font-size: 20px;
+        padding-top: 2%;
+    }
 }
