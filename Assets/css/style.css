@@ -63,12 +63,12 @@ header .box-name{
     padding-right: 0.1%;
     padding-top: 0.1%;
     padding-bottom: 0.1%;
+    padding-left:3%;
     font-size: 32px;
 }
 
-.box-name img{
-    flex: 25%;
-    height: 100%;
+#aboutme aside img{
+    height: 200px;
     border-radius: 100%;
 }
 
@@ -89,7 +89,7 @@ header .box-name{
     background-position: center;
 }
 
-#subtitle div{
+.subheading {
     width: fit-content;
     color: var(--dark);
     background-color: var(--light);
@@ -137,28 +137,28 @@ section{
 }
 
 .img1{
-    background-image: url("../images/Project1.PNG");
+    background-image: url("../images/Sunshine.PNG");
     background-size: cover;
     background-position: center;
     width: 87.5%;
 }
 .img2{
-    background-image: url("../images/Project2.PNG");
+    background-image: url("../images/DayPlanner.PNG");
     background-size: cover;
     background-position: center;
 }
 .img3{
-    background-image: url("../images/Project3.PNG");
+    background-image: url("../images/CodeQuiz.PNG");
     background-size: cover;
     background-position: center;
 }
 .img4{
-    background-image: url("../images/Project4.PNG");
+    background-image: url("../images/PasswordGenerator.PNG");
     background-size: cover;
     background-position: center;
 }
 .img5{
-    background-image: url("../images/Project5.PNG");
+    background-image: url("../images/WeatherDashboard.PNG");
     background-size: cover;
     background-position: center;
 }
