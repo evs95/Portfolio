@@ -132,6 +132,10 @@ section{
     padding-left: 0%;
 }
 
+#aboutme article{
+    font-size: 20px;
+}
+
 .card{
     display: inline-block;
     width: 38%;
