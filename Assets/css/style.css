@@ -110,8 +110,13 @@ aside{
     padding-right: 5px;
 }
 
+#aboutme-word{
+    display: none;
+}
+
 article{
     flex: 80%;
+    height: fit-content;
     padding-left: 10px;
     flex-wrap: wrap;
 }
@@ -137,34 +142,34 @@ section{
 }
 
 .img1{
-    background-image: url("../images/Sunshine.PNG");
+    background-image: url("../images/Project1.PNG");
     background-size: cover;
     background-position: center;
     width: 87.5%;
 }
 .img2{
-    background-image: url("../images/DayPlanner.PNG");
+    background-image: url("../images/Project2.PNG");
     background-size: cover;
     background-position: center;
 }
 .img3{
-    background-image: url("../images/CodeQuiz.PNG");
+    background-image: url("../images/Project3.PNG");
     background-size: cover;
     background-position: center;
 }
 .img4{
-    background-image: url("../images/PasswordGenerator.PNG");
+    background-image: url("../images/Project4.PNG");
     background-size: cover;
     background-position: center;
 }
 .img5{
-    background-image: url("../images/WeatherDashboard.PNG");
+    background-image: url("../images/Project5.PNG");
     background-size: cover;
     background-position: center;
 }
 
 .card-title{
-    width: fit-content;
+    width: 60%;
     position: absolute;
     bottom: 10%;
     left: 0%;
@@ -195,6 +200,7 @@ section{
     .card{
         display: inline-block;
         width: 85%;
+        height: 200px;
     }
 
     .box-name img{
@@ -208,5 +214,13 @@ section{
         text-align: start;
         font-size: 20px;
         padding-top: 2%;
+    }
+
+    #aboutme-photo{
+        display: none;
+    }
+
+    #aboutme-word{
+        display: block;
     }
 }
